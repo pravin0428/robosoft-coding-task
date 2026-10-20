@@ -4,7 +4,6 @@ import { formatDate, formatINR } from "@/lib/format";
 export default function StrategyHeader({ strategy }: { strategy: Strategy }) {
   return (
     <header className="card">
-      <span className="fictional-badge">Fictional sample data</span>
       <h1 className="strategy-name">{strategy.name}</h1>
       <p className="strategy-subtitle">
         Managed by {strategy.fundManagerName} · Minimum investment{" "}

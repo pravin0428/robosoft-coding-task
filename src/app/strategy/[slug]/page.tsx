@@ -19,7 +19,7 @@ export async function generateMetadata({
   if (!strategy) return { title: "Strategy not found" };
   return {
     title: `${strategy.name} · Strategy Detail`,
-    description: `Fictional sample strategy detail page for ${strategy.name}.`,
+    description: `Trailing returns, holdings and fees for ${strategy.name}.`,
   };
 }
 
@@ -47,8 +47,7 @@ export default async function StrategyPage({
         <h2 className="section-title">Trailing returns</h2>
         <TrailingReturnsTable trailingReturns={strategy.trailingReturns} />
         <p className="assumption-note">
-          Illustrative figures for a fictional strategy. Not real performance
-          data.
+          Past performance does not guarantee future results.
         </p>
       </section>
 
@@ -56,8 +55,7 @@ export default async function StrategyPage({
         <h2 className="section-title">Top five holdings</h2>
         <HoldingsList holdings={strategy.holdings} />
         <p className="assumption-note">
-          Allocation percentages are fictional and cover the top five positions
-          only.
+          Allocation percentages cover the top five positions only.
         </p>
       </section>
 

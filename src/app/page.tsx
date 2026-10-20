@@ -7,9 +7,6 @@ export default function HomePage() {
   return (
     <main className="container">
       <h1 className="strategy-name">Strategies</h1>
-      <p className="strategy-subtitle">
-        Fictional sample data for assignment purposes only.
-      </p>
 
       <ul className="strategy-list">
         {strategies.map((strategy) => (

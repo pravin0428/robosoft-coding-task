@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: "%s | Robosoft Strategy Detail",
   },
   description:
-    "Assignment submission: responsive strategy detail page with fictional sample data.",
+    "Responsive strategy detail page with trailing returns, holdings and a fee calculator.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -26,8 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <footer className="site-footer">
           <div className="container">
             All strategies, holdings, managers and returns shown here are
-            fictional sample data created for an assignment. Nothing on this
-            page is real financial information.
+            fictional and for demonstration only.
           </div>
         </footer>
       </body>

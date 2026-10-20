@@ -110,7 +110,7 @@ export default function FeeCalculator({
         Projection uses the strategy&apos;s 1Y return of{" "}
         {annualReturnPercent.toFixed(2)}% as the annual rate (implementation
         assumption — the assignment does not specify a period). Illustrative
-        minimum investment: {formatINR(minimumInvestment)}. Sample figures only.
+        minimum investment: {formatINR(minimumInvestment)}.
       </p>
     </section>
   );
