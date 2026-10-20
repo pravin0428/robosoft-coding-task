@@ -34,7 +34,7 @@ trimmed, contract-specific view of the same data.
 ### Strategy Summary API
 ![Strategy Details API](docs/screenshots/api-strategy-details.png)
 
-### Strategy Slug UI
+### invalid strategy slug API res
 ![Strategy Summary API](docs/screenshots/api-strategy-slug.png)
 
 ## Features
