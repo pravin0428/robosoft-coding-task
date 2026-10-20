@@ -20,6 +20,23 @@ All information is served from one in-memory source of fictional sample data
 through a small service layer, and the required summary endpoint exposes a
 trimmed, contract-specific view of the same data.
 
+## Screenshots
+
+### Strategy Overview
+![Strategy Overview](docs/screenshots/strategy-overview.png)
+
+### Strategy Details
+![Strategy Details](docs/screenshots/strategy-details.png)
+
+### Investment Calculator
+![Investment Calculator](docs/screenshots/investment-calculator.png)
+
+### Strategy Details API
+![Strategy Details API](docs/screenshots/api-strategy-details.png)
+
+### Strategy Summary API
+![Strategy Summary API](docs/screenshots/api-strategy-slug.png)
+
 ## Features
 
 - **Strategy snapshot** — name, fund manager, inception date, benchmark and
