@@ -31,11 +31,11 @@ trimmed, contract-specific view of the same data.
 ### Investment Calculator
 ![Investment Calculator](docs/screenshots/investment-calculator.png)
 
-### Strategy Summary API
+### Strategy Details API
 ![Strategy Details API](docs/screenshots/api-strategy-details.png)
 
-### invalid strategy slug API res
-![Strategy Summary API](docs/screenshots/api-strategy-slug.png)
+### Invalid Strategy Slug (404 Response)
+![Invalid Strategy Slug (404 Response)](docs/screenshots/api-invalid-strategy-slug.png)
 
 ## Features
 
